@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tp1Consola
 {
-    class Program
+    class TransportePublico
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
