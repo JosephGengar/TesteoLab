@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Tp1Consola
 {
-    class Taxi
+    public class Taxi : TransportePublico
     {
+        public Taxi(int pasajeros, string nombre) : base(pasajeros, nombre)
+        {
+
+        }
+
+        public override string Avanzar()
+        {
+            return "soy un taxi avanzando";
+        }
+
+        public override string Detenerse()
+        {
+            return "soy un taxi deteniendome";
+        }
+
+        public override int Get()
+        {
+            return this.Pasajeros;
+        }
     }
 }
